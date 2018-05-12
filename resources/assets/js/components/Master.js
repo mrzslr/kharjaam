@@ -16,7 +16,7 @@ class Master extends Component {
       <LocaleProvider locale={faIR}>
   <Layout className="layout">
     <Header>
-      <div className="logo" />
+      <div className="logo"  />
       <Menu
         theme="dark"
         mode="horizontal"
@@ -28,16 +28,15 @@ class Master extends Component {
         <Menu.Item key="3">منو ۱</Menu.Item>
       </Menu>
     </Header>
-    <Content style={{ padding: '0 50px' }}>
-      <Breadcrumb style={{ margin: '16px 0' }}>
-        <Breadcrumb.Item>Home</Breadcrumb.Item>
-        <Breadcrumb.Item>List</Breadcrumb.Item>
-        <Breadcrumb.Item>App</Breadcrumb.Item>
-      </Breadcrumb>
-      <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>Content</div>
+    <Content style={{ padding: '10px 50px' }}>
+      <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
+      
+      <Button type="primary" icon="wallet"> خرج جدید </Button>
+      
+      </div>
     </Content>
     <Footer style={{ textAlign: 'center' }}>
-      Ant Design ©2016 Created by Ant UED
+      خرجام @ 2018
     </Footer>
   </Layout>
   </LocaleProvider>

@@ -1,15 +1,22 @@
 @font-face {
   font-family: 'iransans';
-  src: url('../fonts/vazir.eot');
-  /* IE9 Compat Modes */
-  src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'),
-  /* IE6-IE8 */
-  url('../fonts/IRANSansWeb_Medium.woff2') format('woff2'),
-  /* Super Modern Browsers */
-  url('../fonts/vazir.woff') format('woff'),
-  /* Pretty Modern Browsers */
-  url('../fonts/vazir.ttf') format('truetype');
-  /* Safari, Android, iOS */
+  src: url('../fonts/vazir.eot'),
+  url('../fonts/IRANSansWeb.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'iransans_b';
+  src: url('../fonts/vazir.eot'),
+  url('../fonts/IRANSansWeb_Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'iransans_l';
+  src: url('../fonts/vazir.eot'),
+  url('../fonts/IRANSansWeb_Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'iransans_m';
+  src: url('../fonts/vazir.eot'),
+  url('../fonts/IRANSansWeb_Medium.woff2') format('woff2');
 }
 
 html * {
@@ -17,17 +24,9 @@ html * {
 }
 
 .ant-menu-dark.ant-menu-horizontal {
-  float: right;
   direction: rtl;
+  float: right;
 }
 .ant-layout-content {
   direction: rtl;
-  
-}
-#components-layout-demo-top .logo {
-  width: 120px;
-  height: 31px;
-  background: rgba(255,255,255,.2);  
-  margin: 16px 24px 16px 0;
-  float: left;
 }
